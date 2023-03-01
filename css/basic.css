@@ -1,0 +1,127 @@
+/*?? Small Css reset*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*?? Basic Css setup*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/*?? Color setup */
+
+:root {
+  --primary-color: #007bff;
+  --basic-color: #0d5c63;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --hovered-color: #dc4f00;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+}
+
+/*!! Link color setup*/
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hovered-color);
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--warning-color);
+}
+
+a:active {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/*?? Setup of the basic layout*/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 20px;
+}
+
+.nav {
+  background-color: var(--light-color);
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.article {
+  flex-basis: calc(33.33% - 20px);
+}
+
+.sidebar {
+  flex-basis: calc(25% - 20px);
+}
+
+.footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 20px;
+}
+
