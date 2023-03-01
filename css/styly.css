@@ -68,6 +68,16 @@ nav ul li {
   margin-left: 5rem;
   margin-top: 0.5rem;
 }
+ .active {
+      background-color: #4CAF50;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+
 
 nav ul li a {
   color: var(--light-color);
