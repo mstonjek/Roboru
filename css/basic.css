@@ -24,13 +24,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 5rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 h4 {
   font-size: 1.5rem;
@@ -53,16 +53,18 @@ ul, ol {
 /*?? Color setup */
 
 :root {
-  --primary-color: #007bff;
+  --primary-color: #1c2331;
   --basic-color: #0d5c63;
-  --secondary-color: #6c757d;
+  --secondary-color: #264653;
   --success-color: #28a745;
   --info-color: #17a2b8;
   --hovered-color: #dc4f00;
-  --warning-color: #ffc107;
+  --warning-color: #c0392b;
   --danger-color: #dc3545;
+  --white-color: #ecf2ff;
   --light-color: #f8f9fa;
   --dark-color: #343a40;
+  --blue-color: #278beb;
 }
 
 /*!! Link color setup*/
@@ -115,7 +117,7 @@ a:active {
 }
 
 .footer {
-  background-color: var(--dark-color);
+  background-color: var(--basic-color);
   color: var(--light-color);
   padding: 20px;
 }
