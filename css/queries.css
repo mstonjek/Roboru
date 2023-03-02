@@ -9,36 +9,12 @@
 
 
 
-@media only screen and (max-width: 1115px) {
-
-	.hamburger {
-		display: inline-block;
-	}
-
-	nav ul {
-		display: none;
-			left: 20px;
-			background: transparent;
-
-
-			}
-
-	nav ul li {
-		display: block;
-			text-align: justify;
-				background-color: transparent;
 
 
 
-	}
 
+	
 
-
-	.background1 {
-		display: block;
-	}
-
-}
 @media only screen and (max-width: 1032px) {
 	
 	.btnq {

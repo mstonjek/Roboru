@@ -13,10 +13,9 @@
 }
 
 /*?? Background*/
-
-header {
+.main_bg {
   background: url(../img/robot2.png);
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -54,6 +53,8 @@ nav ul {
   background-color: var(--basic-color);
   display: flex;
   justify-content: center;
+  left: 0;
+  top: 0;
 }
 
 /*!! Logo in nav bar*/
@@ -115,6 +116,7 @@ nav ul li a:hover {
   height: 2rem;
   padding-top: 8px !important;
   font-weight: 500;
+  font-family: "Work Sans", sans-serif !important;
 } 
 
 
