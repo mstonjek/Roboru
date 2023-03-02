@@ -76,11 +76,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px var(--warning-color);
-}
-
 a:active {
   color: var(--secondary-color);
   text-decoration: none;

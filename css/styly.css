@@ -1,4 +1,4 @@
-                                            /*?? Main Css*/
+/*?? Main Css*/
 /*!! flex */
 .center {
   height: 100% !important;
@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-        /*?? Background*/
+/*?? Background*/
 
 header {
   background: url(../img/robot2.png);
@@ -43,7 +43,7 @@ header {
   display: none;
 }
 
-                /*!! Nav */
+/*!! Nav */
 
 nav ul {
   width: 100%;
@@ -55,35 +55,26 @@ nav ul {
   display: flex;
   justify-content: center;
 }
-     
 
-          /*!! Logo in nav bar*/
+/*!! Logo in nav bar*/
 .logo img {
   height: 45px;
   overflow: hidden;
-  
 }
 
 nav ul li {
   margin-left: 5rem;
   margin-top: 0.5rem;
 }
- .active {
-      background-color: #4CAF50;
-    }
-
-    nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-
+.active {
+  border-bottom: 1px solid var(--hovered-color) !important;
+}
 
 nav ul li a {
   color: var(--light-color);
   font-size: 20px;
   text-decoration: none;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 nav ul li a:link,
@@ -95,8 +86,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-  border-bottom: 2px solid var(hovered-color);
-  transition: border-bottom 0.5s;
+  color: var(--warning-color);
 }
 
 /*********************** upozornění na začátek roboru*********/
@@ -133,8 +123,6 @@ nav ul li a:hover {
   padding: 10px;
   border-radius: 15px;
 }
-
-
 
 /***** pozadí ********/
 
@@ -1450,7 +1438,6 @@ nav ul li a:hover {
   height: 2rem;
   padding-top: 8px !important;
   font-weight: 500;
-  
 }
 .kdy {
   margin-bottom: 5rem;
@@ -1590,8 +1577,6 @@ nav ul li a:hover {
   height: 4rem;
   padding: 20px;
   margin-left: 11%;
-  
-
 }
 .nm {
   width: 30%;
@@ -1600,7 +1585,6 @@ nav ul li a:hover {
   margin-top: 3rem;
   color: #0d5c63;
   font-size: 30px;
-
 }
 .nm:after {
   content: "";
@@ -1615,11 +1599,10 @@ nav ul li a:hover {
   width: 13%;
   margin-right: 10%;
   text-align: left;
-  border: 2px solid #0d5c63;  
+  border: 2px solid #0d5c63;
   padding: 20px;
   border-radius: 20px;
   height: 20% !important;
-
 }
 .pr {
   width: 13%;
@@ -1629,12 +1612,8 @@ nav ul li a:hover {
   margin-left: 10%;
   border-radius: 20px;
   height: 20% !important;
-  
-
 }
 .pm {
   width: 34%;
   margin-bottom: 15rem;
-  
-  
 }
