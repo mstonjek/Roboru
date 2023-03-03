@@ -6,6 +6,11 @@
   justify-content: center !important;
 }
 
+.flex {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 /* container */
 .row {
   width: 85%;
@@ -20,6 +25,7 @@
   display: inline-block;
   z-index: 2;
 }
+
 
 /*??pozadí 1*/
 .background1 {
@@ -102,7 +108,7 @@ nav ul li a:hover {
   font-family: "Work Sans", sans-serif;
   margin-top: 2rem;
   color: var(--blue-color);
-  height: 2rem;
+  height: 2rem !important;
   text-align: center;
   display: inline !important;
   text-decoration: none !important;
