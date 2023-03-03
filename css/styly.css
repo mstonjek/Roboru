@@ -15,7 +15,7 @@
 /*?? Background*/
 .main_bg {
   background-color: var(--secondary-color);
-  height: 65vh;
+  height: 75vh;
   width: 100%;
   display: inline-block;
   z-index: 2;
@@ -98,7 +98,7 @@ nav ul li a:hover {
   height: 5rem !important;
 }
 .btn1  {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Work Sans", sans-serif;
   margin-top: 2rem;
   color: var(--blue-color);
@@ -118,6 +118,10 @@ nav ul li a:hover {
 .M_T {
   font-size: 1.2rem;
 
+}
+/*!! Space */
+.spc {
+  margin-bottom: 15rem !important;
 }
 
 
