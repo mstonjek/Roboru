@@ -109,24 +109,33 @@ nav ul li a:hover {
 }
 .btn1:nth-child(2) {
   margin-left: 6rem;
+}
+/*! not bold strong tag !*/
+.not_bold {
+  font-weight: 500;
 } 
+/*!! Marked text */
+.M_T {
+  font-size: 1.2rem;
 
+}
 
 
 /*!! Title */
 .title {
 
   font-family: "Work Sans", sans-serif;
-  margin-top: 3rem;
+  margin-top: 5rem;
   font-weight: 500;
   color: var(--basic-color);
   
 }
 .p  {
-  width: 50%;
+  width: 40%;
   font-family: "Work Sans", sans-serif;
   text-align: justify;
-  margin-bottom: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
