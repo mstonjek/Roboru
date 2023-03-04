@@ -44,6 +44,22 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+    <!--!! styles-->
+    <style>
+        p {
+            margin: 0 !important;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+        main a  {
+            color: var(--basic-color);
+            cursor: pointer !important;
+            display: block;
+            font-size: 1.35rem;
+            text-align: center;
+            font-weight: 600 !important;
+        }
+    </style>
   </head>
   <body>
     <!--?? Backgrounds-->
@@ -79,34 +95,33 @@
 
     <main>
       <!--?? first title - links-->
-      <section class="H_title">
-        <h2 class="title center">Odkazy</h2>
+      <section class="Lin_title">
+        <h1 class="title center L_title">Odkazy</h1>
       </section>
       <section class="center links">
         <div class="links_div">
-          <h3>Zpravodajství o dění v kroužku naleznete zde:</h3>
-          <a class="Flink" href="https://www.facebook.com/roboru.htlm/?FREF=TS"
+          <h3 lass="title_link">Zpravodajství o dění v kroužku naleznete zde:</h3>
+          <a class="link label_1 flink" href="https://www.facebook.com/roboru.htlm/?FREF=TS"
             >Facebook</a
           >
 
-          <h3>Odkazy na soutěže</h3>
-          <a>Robotický den</a>
-          <a>Robotem rovne </a>
+          <h3 class="title_link">Odkazy na soutěže</h3>
+          <a class="link label_1">Robotický den</a>
+          <a class="link">Robotem rovne </a>
 
-          <h3>Programy</h3>
-          <p>Program Karel:</p>
-          <a>Karel</a>
-          <p>Programy picaxe:</p>
-          <a>Picaxe</a>
-          <p>3D Kreslení online na internetu:</p>
-          <a>Tinkercard</a>
+          <h3 class="title_link">Programy</h3>
+          <p class="label label_2">Program Karel:</p>
+          <a class="link">Karel</a>
+          <p class="label label_2"> Programy picaxe:</p>
+          <a class="link">Picaxe</a>
+          <p class="label label_2">3D Kreslení online na internetu:</p>
+          <a class="link">Tinkercard</a>
 
-          <h3>Odkazy na zajímavé weby</h3>
-          <h3>Kroužek robotiky písek:</h3>
-          Kroužek Písek
-          <a>Robotika</a>
-          <a>www.dratek.cz</a>
-          <a>www.rpishop.cz</a>
+          <h3 class="title_link">Odkazy na zajímavé weby</h3>
+          <p class="label label_1">Kroužek robotiky písek:</p>
+          <a class="link">Robotika</a>
+          <a class="link">www.dratek.cz</a>
+          <a class="link">www.rpishop.cz</a>
         </div>
       </section>
     </main>
@@ -114,10 +129,10 @@
     <!--!! Footer -->
     <footer>
       <div class="footer">
-        <p>
+        <label>
           Copyright © 2023 <strong class="not_bold">Roboru</strong>. Všechna
           práva vyhrazena.
-        </p>
+        </label>
       </div>
     </footer>
   </body>

@@ -56,10 +56,10 @@ ul, ol {
   --primary-color: #1c2331;
   --basic-color: #1C6CB8;
   --secondary-color: #0A2A3E;
-  --success-color: #28a745;
+  --success-color: #00A550;
   --info-color:  #6ab8c2;
   --hovered-color: #DC4E01;
-  --warning-color: #c0392b;
+  --warning-color: #F70402;
   --danger-color: #dc3545;
   --white-color: #ecf2ff;
   --light-color: #f8f9fa;
@@ -74,8 +74,8 @@ a {
 }
 
 a:hover {
-  color: var(--hovered-color);
-  text-decoration: underline;
+  color: var(--warning-color);
+  
 }
 
 a:active {

@@ -161,7 +161,28 @@ nav ul li a:hover {
 .links_div {
   margin-bottom: 15rem;
 }
-
+.title_link {
+  text-align: center;
+}
+/*!! Link title h1*/
+.L_title {
+  margin-bottom: 3rem;
+}
+.title_link {
+  margin-top: 2rem;
+}
+.label_1 {
+  margin-top: 2rem !important;
+}
+.link {
+  margin-top: 1rem;
+}
+.label_2 {
+  margin-top: 1rem !important;  
+}
+.flink {
+  font-size: 1.75rem;
+}
 
 
 
