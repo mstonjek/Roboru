@@ -93,7 +93,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-  color: var(--blue-color);
+  color: var(--yellow-color);
 }
 
 /*?? Main title*/
@@ -107,7 +107,7 @@ nav ul li a:hover {
   font-size: 1.75rem;
   font-family: "Work Sans", sans-serif;
   margin-top: 2rem;
-  color: var(--blue-color);
+  color: var(--light-color);
   height: 2rem !important;
   text-align: center;
   display: inline !important;
@@ -148,7 +148,10 @@ nav ul li a:hover {
   margin-bottom: 2rem;
 }
 
-
+/*!! homework */
+.p_hm {
+  margin-top: 2rem;
+}
 
 
 

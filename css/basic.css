@@ -54,17 +54,17 @@ ul, ol {
 
 :root {
   --primary-color: #1c2331;
-  --basic-color: #0d5c63;
-  --secondary-color: #264653;
+  --basic-color: #1C6CB8;
+  --secondary-color: #0A2A3E;
   --success-color: #28a745;
-  --info-color: #17a2b8;
-  --hovered-color: #dc4f00;
+  --info-color:  #6ab8c2;
+  --hovered-color: #DC4E01;
   --warning-color: #c0392b;
   --danger-color: #dc3545;
   --white-color: #ecf2ff;
   --light-color: #f8f9fa;
   --dark-color: #343a40;
-  --blue-color: #278beb;
+  --yellow-color: #FFFF00;
 }
 
 /*!! Link color setup*/
