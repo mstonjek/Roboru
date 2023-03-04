@@ -116,6 +116,12 @@ nav ul li a:hover {
 .btn1:nth-child(2) {
   margin-left: 6rem;
 }
+
+/*!! Button for Photo gallery page*/
+#btn2 {
+  margin-left: 6rem;
+}
+
 /*! not bold strong tag !*/
 .not_bold {
   font-weight: 500;
