@@ -6,7 +6,7 @@ const photoNumber = document.querySelector(".photo-number");
 let currentPhotoIndex = 1;
 
 const updatePhotoNumber = () => {
-  photoNumber.textContent = `${currentPhotoIndex} / 9`;
+  photoNumber.textContent = `${currentPhotoIndex} / 16`;
 };
 
 const showPhoto = () => {
@@ -22,7 +22,7 @@ prevBtn.addEventListener("click", () => {
 });
 
 nextBtn.addEventListener("click", () => {
-  if (currentPhotoIndex < 9) {
+  if (currentPhotoIndex < 16) {
     currentPhotoIndex++;
     showPhoto();
   }
