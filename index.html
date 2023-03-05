@@ -3,7 +3,7 @@
   <head>
     <!--?? Meta tags-->
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta
       name="description"
@@ -43,7 +43,6 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
   </head>
 
   <body>
@@ -76,10 +75,11 @@
       <div class="main_bg">
         <h1 class="MainTitle center">Robotický kroužek</h1>
         <div class="flex">
-          <a href="" class="btn1">Kontakty ></a>
-          <a href="" class="btn1">Zápisné ></a>
+          <a href="#sekce-1" onclick="scrollToSection('#sekce-1')" class="btn1"
+            >Kontakty ></a
+          >
+          <a href="#date" class="btn1" onclick="scrollToSection('#date')">Termín ></a>
         </div>
-
       </div>
     </header>
 
@@ -92,7 +92,7 @@
       </section>
       <section class="center">
         <!--?? first p-->
-        <p class="p">
+        <p class="p" id="date">
           <strong>Robotický kroužek</strong> působí s podporou
           <strong>Základní školy v Rudné u Prahy</strong>.
           <strong class="not_bold">Robotický kroužek</strong> sdružuje žáky od
@@ -107,8 +107,8 @@
         </p>
       </section>
       <!--?? 2. title -  Time -->
-      <section class="T_title">
-        <h2 class="Time center title">Termín a místo konání</h2>
+      <section class="T_title" >
+        <h2 class="Time center title" >Termín a místo konání</h2>
       </section>
 
       <!--?? 2. p - Time -->
@@ -159,7 +159,7 @@
 
       <!--?? last Title - Leadership-->
       <section class="Le_title">
-        <h2 class="center title Le">Vedení kroužku</h2>
+        <h2 class="center title Le" id="sekce-1">Vedení kroužku</h2>
       </section>
 
       <!--?? 4. p - Leadership-->
@@ -171,6 +171,7 @@
           <strong>tomas.body.jelinek@gmail.com</strong>
         </p>
       </section>
+      <script src="functions.js"></script>
     </main>
 
     <!--!! Footer -->
