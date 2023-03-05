@@ -10,7 +10,7 @@ const updatePhotoNumber = () => {
 };
 
 const showPhoto = () => {
-  photo.src = `../resized_top_images/Tabule kroužku/fotka${currentPhotoIndex}.jpg`;
+  photo.src = `../resized_top_images/Board/fotka${currentPhotoIndex}.jpg`;
   updatePhotoNumber();
 };
 

@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let maxHeight = 0;
 
   photos.forEach((photo, index) => {
-    photo.src = `../resized_images/fotka${index + 1}.jpg`;
+    photo.src = `../resized_images/Board/fotka${index + 1}.jpg`;
 
     if (photo.height > maxHeight) {
       maxHeight = photo.height;
