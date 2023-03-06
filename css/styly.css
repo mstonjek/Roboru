@@ -1,4 +1,4 @@
-                                                              /*?? Main Css*/
+/*?? Main Css*/
 /*!! flex */
 .center {
   height: 100% !important;
@@ -19,13 +19,13 @@
 
 /*?? Background*/
 .main_bg {
-  background-color: var(--secondary-color);
-  height: 75vh;
+  background-image: url("../resized_top_images/Robots/fotka1.jpg");
+  background-size: cover;
+  height: 80vh;
   width: 100%;
   display: inline-block;
   z-index: 2;
 }
-
 
 /*??pozadí 1*/
 .background1 {
@@ -103,7 +103,7 @@ nav ul li a:hover {
   margin-top: 7rem;
   height: 5rem !important;
 }
-.btn1  {
+.btn1 {
   font-size: 1.75rem;
   font-family: "Work Sans", sans-serif;
   margin-top: 2rem;
@@ -125,28 +125,24 @@ nav ul li a:hover {
 /*! not bold strong tag !*/
 .not_bold {
   font-weight: 500;
-} 
+}
 /*!! Marked text */
 .M_T {
   font-size: 1.2rem;
-
 }
 /*!! Space */
 .spc {
   margin-bottom: 15rem !important;
 }
 
-
 /*!! Title */
 .title {
-
   font-family: "Work Sans", sans-serif;
   margin-top: 5rem;
   font-weight: 500;
   color: var(--basic-color);
-  
 }
-.p  {
+.p {
   width: 40%;
   font-family: "Work Sans", sans-serif;
   text-align: justify;
@@ -184,7 +180,7 @@ nav ul li a:hover {
   margin-top: 1rem;
 }
 .label_2 {
-  margin-top: 1rem !important;  
+  margin-top: 1rem !important;
 }
 .flink {
   font-size: 1.75rem;
@@ -194,22 +190,6 @@ nav ul li a:hover {
 .ph_p {
   margin-bottom: 6rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*!! footer  */
 .footer {
@@ -223,6 +203,4 @@ nav ul li a:hover {
   padding-top: 8px !important;
   font-weight: 500;
   font-family: "Work Sans", sans-serif !important;
-} 
-
-
+}
