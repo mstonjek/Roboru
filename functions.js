@@ -22,6 +22,18 @@
         1000
       );
     });
+    $(".facebook").click(function () {
+      $("html, body").animate(
+        { scrollTop: $(".facebook--scroll").offset().top },
+        1000
+      );
+    });
+    $(".result").click(function () {
+      $("html, body").animate(
+        { scrollTop: $(".result--scroll").offset().top },
+        1000
+      );
+    });
 
    
 
