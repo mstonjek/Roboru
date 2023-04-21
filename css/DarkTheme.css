@@ -1,0 +1,11 @@
+.DarkTheme {
+  background-color: var(--basic-color);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 2rem;
+  padding-bottom: 10px;
+  
+}
+
+

@@ -55,7 +55,7 @@
 /*??pozadí 1*/
 .background1 {
   width: 100%;
-  height: 45px;
+  height: 46px;
   background-color: var(--basic-color);
   position: fixed;
   display: none;
@@ -77,7 +77,7 @@
 
 nav ul {
   width: 100%;
-  height: 45px;
+  height: 47.5px;
   position: fixed;
   margin: 0px auto;
   z-index: 250;
@@ -90,7 +90,7 @@ nav ul {
 
 /*!! Logo in nav bar*/
 .logo img {
-  height: 45px;
+  height: 47.5px;
   overflow: hidden;
 }
 
