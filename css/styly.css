@@ -81,7 +81,7 @@ nav ul {
   position: fixed;
   margin: 0px auto;
   z-index: 250;
-  background-color: var(--basic-color);
+  background-color: var(--basic-dark-color);
   display: flex;
   justify-content: center;
   left: 0;
@@ -164,7 +164,7 @@ nav ul li a:hover {
 .title {
   font-family: "Work Sans", sans-serif;
   margin-top: 5rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--basic-color);
 }
 .p {

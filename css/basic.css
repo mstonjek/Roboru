@@ -15,6 +15,8 @@ body {
   font-size: 16px;
   line-height: 1.4;
   font-family: "Work Sans", sans-serif;
+  background-color: #000000;
+  color: var(--light-color);
 }
 
 h1,
@@ -72,6 +74,15 @@ ol {
   --light-color: #f8f9fa;
   --dark-color: #343a40;
   --yellow-color: #ffff00;
+
+  /*?? Dark themed colors*/
+
+  --primary-dark-color: #e3dccf;
+  --basic-dark-color: #0a2e45;
+  --white-dark-color: #ecd2b7;
+  --light-dark-color: #ecd2b7;
+  --secondary-dark-color: #f5d5c1;
+  
 }
 
 /*!! Link color setup*/
@@ -123,7 +134,7 @@ a:active {
 }
 
 .footer {
-  background-color: var(--basic-color);
+  background-color: var(--basic-dark-color);
   color: var(--light-color);
   padding: 20px;
 }

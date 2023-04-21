@@ -4,8 +4,15 @@
   background: transparent;
   cursor: pointer;
   margin-left: 2rem;
-  padding-bottom: 10px;
   
+  
+}
+
+.DarkTheme.actived img {
+    filter: grayscale(100%);
+}
+#moon {
+    margin-left: 5rem;
 }
 
 
