@@ -81,7 +81,7 @@ nav ul {
   position: fixed;
   margin: 0px auto;
   z-index: 250;
-  background-color: var(--basic-dark-color);
+  background-color: var(--basic-color); 
   display: flex;
   justify-content: center;
   left: 0;

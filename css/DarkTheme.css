@@ -3,16 +3,23 @@
   border: none;
   background: transparent;
   cursor: pointer;
-  margin-left: 2rem;
-  
-  
 }
 
-.DarkTheme.actived img {
-    filter: grayscale(100%);
+.DarkTheme.activated img {
+  filter: grayscale(100%);
 }
 #moon {
-    margin-left: 5rem;
+  margin-left: 2rem;
 }
-
-
+#sun {
+  margin-left: 5rem;
+}
+/****  All colored tags for DarkMode - darkmode  ****/
+/*!! body-bgc and c, nav ul-bgc, footer-bgc  */
+.DarkThemeBasic {
+  background-color: var(--basic-dark-color) !important;
+}
+.DarkThemeForBody {
+  background-color: var(--dark-color) !important;
+  color: var(--light-color) !important;
+}
