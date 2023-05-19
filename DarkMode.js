@@ -4,34 +4,46 @@ document.addEventListener("DOMContentLoaded", () => {
   const Footer = document.querySelector("#footer_js");
   const Navigation = document.querySelector("#nav_ul");
 
-  function DarkMode() {
+  function enableDarkMode() {
+    document.body.classList.add("DarkThemeForBody");
+    Footer.classList.add("DarkThemeBasic");
+    Navigation.classList.add("DarkThemeBasic");
+    Sun.classList.remove("activated");
+    Moon.classList.add("activated");
+
+    // ! Zde je uložena preference režimu
+    localStorage.setItem("darkMode", "enabled");
+  }
+
+  function disableDarkMode() {
+    document.body.classList.remove("DarkThemeForBody");
+    Footer.classList.remove("DarkThemeBasic");
+    Navigation.classList.remove("DarkThemeBasic");
+    Sun.classList.add("activated");
+    Moon.classList.remove("activated");
+
+    //! Zde je úložiště darkModu
+    localStorage.setItem("darkMode", "disabled");
+  }
+
+  function toggleDarkMode() {
     const isDarkMode = document.body.classList.contains("DarkThemeForBody");
 
     if (isDarkMode) {
-      exit();
+      disableDarkMode();
     } else {
-      document.body.classList.add("DarkThemeForBody");
-      Footer.classList.add("DarkThemeBasic");
-      Navigation.classList.add("DarkThemeBasic");
-      Sun.classList.remove("activated");
-      Moon.classList.add("activated");
-    }
-  }
-  function LightMode() {
-    const isDarkMode = document.body.classList.contains("DarkThemeForBody");
-
-    if (isDarkMode) {
-      document.body.classList.remove("DarkThemeForBody");
-      Footer.classList.remove("DarkThemeBasic");
-      Navigation.classList.remove("DarkThemeBasic");
-
-      Sun.classList.add("activated");
-      Moon.classList.remove("activated");
-    } else {
-      exit();
+      enableDarkMode();
     }
   }
 
-  Sun.addEventListener("click", LightMode);
-  Moon.addEventListener("click", DarkMode);
+  //! Aplikování darkmodu na zbytku stránky z úložiště
+  const currentMode = localStorage.getItem("darkMode");
+  if (currentMode === "enabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+
+  Sun.addEventListener("click", disableDarkMode);
+  Moon.addEventListener("click", enableDarkMode);
 });

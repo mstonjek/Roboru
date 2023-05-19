@@ -27,7 +27,8 @@
     <link rel="stylesheet" type="text/css" href="../css/styly.css" />
     <link rel="stylesheet" type="text/css" href="../css/queries.css" />
     <link rel="stylesheet" type="text/css" href="../css/basic.css" />
-    <link rel="stylesheet" type="text/css" href="css/board.css">
+    <link rel="stylesheet" type="text/css" href="css/board.css" />
+    <link rel="stylesheet" type="text/css" href="css/DarkTheme.css" />
     <!--?? SEO optimalization-->
     <link rel="canonical" href="https://roboru.cz" />
 
@@ -57,7 +58,7 @@
 
     <!--!! navigation -->
     <nav>
-      <ul>
+      <ul id="nav_ul">
         <div class="položky center">
           <a href="../index.html" class="logo"
             ><img
@@ -69,6 +70,14 @@
           <li><a href="competition.html">Ze závodů</a></li>
           <li><a href="robots.html">Naši roboti</a></li>
           <li><a href="../photo-gallery.html">Foto galerie (zpět)</a></li>
+          <!--!! DarkTheme buttons -->
+          <button class="DarkTheme activated" id="sun">
+            <img src="../img/darkTheme_sun.png" alt="Favicon for sun" />
+          </button>
+
+          <button class="DarkTheme" id="moon">
+            <img src="../img/darkTheme_moon.png" alt="Favicon for moon" />
+          </button>
         </div>
       </ul>
     </nav>
@@ -118,14 +127,13 @@
 
     <!--!! Footer -->
     <footer>
-      <div class="footer">
+      <div class="footer" id="footer_js">
         <p>
           Copyright © 2023 <strong class="not_bold">Roboru</strong>. Všechna
           práva vyhrazena.
         </p>
       </div>
     </footer>
+    <script src="DarkMode.js"></script>
   </body>
-  
-    
 </html>
