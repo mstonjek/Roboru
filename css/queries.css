@@ -59,7 +59,7 @@
   /*! Navigation links font size*/
 }
 @media (max-width: 1440px) {
-  nav ul li {
+  nav div ul li {
     margin-left: 2.5rem !important;
   }
   #moon {
@@ -70,13 +70,13 @@
   }
 }
 @media (max-width: 1200px) {
-  nav ul li a {
+  nav div ul li a {
     font-size: 0.75rem !important;
   }
-  nav ul li {
+  nav div ul li {
     padding-top: 0.3rem !important;
   }
-  nav ul li {
+  nav div ul li {
     margin-left: 2rem !important;
   }
 }
@@ -88,6 +88,18 @@
     margin-left: 1rem !important;
   }
 }
+/*! Navigation hamburger menu by 827px*/
+@media (max-width: 827px) {
+    nav div ul li {
+        display: none !important;
+    }
+    .menu_icon {
+        display: inline-block;
+        
+    }
+}
+
+
 
 /* already added in basic.css
 h1 {
