@@ -1,4 +1,7 @@
 @media (max-width: 600px) {
+  body {
+    font-size: 0.75rem !important;
+  }
   h1 {
     font-size: 2rem !important;
   }
@@ -74,20 +77,20 @@
     margin-left: 2rem !important;
   }
 }
-@media (max-width: 859px) {
+@media (max-width: 1075px) {
+  .none {
+    display: none;
+  }
 }
 /*! Navigation hamburger menu by 827px*/
 @media (max-width: 827px) {
-    .hidden {
-        display: none !important;
-    }
-    .menu_icon {
-        display: inline-block;
-        
-    }
+  .hidden {
+    display: none !important;
+  }
+  .menu_icon {
+    display: inline-block;
+  }
 }
-
-
 
 /* already added in basic.css
 h1 {
