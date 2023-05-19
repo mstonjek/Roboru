@@ -8,12 +8,7 @@
 .DarkTheme.activated img {
   filter: grayscale(100%);
 }
-#moon {
-  margin-left: 2rem;
-}
-#sun {
-  margin-left: 5rem;
-}
+
 /****  All colored tags for DarkMode - darkmode  ****/
 /*!! body-bgc and c, nav ul-bgc, footer-bgc  */
 .DarkThemeBasic {

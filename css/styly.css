@@ -13,9 +13,10 @@
 
 .nav_resize {
   display: flex !important;
-  justify-content: center;
+   justify-content: space-between;
   
 }
+
 
 /* container */
 .row {

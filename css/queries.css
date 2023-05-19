@@ -62,12 +62,6 @@
   nav div ul li {
     margin-left: 2.5rem !important;
   }
-  #moon {
-    margin-left: 1rem !important;
-  }
-  #sun {
-    margin-left: 2.5rem !important;
-  }
 }
 @media (max-width: 1200px) {
   nav div ul li a {
@@ -81,16 +75,10 @@
   }
 }
 @media (max-width: 859px) {
-  #moon {
-    margin-left: 0.5rem !important;
-  }
-  #sun {
-    margin-left: 1rem !important;
-  }
 }
 /*! Navigation hamburger menu by 827px*/
 @media (max-width: 827px) {
-    nav div ul li {
+    .hidden {
         display: none !important;
     }
     .menu_icon {
