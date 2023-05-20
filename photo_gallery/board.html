@@ -58,19 +58,28 @@
 
     <!--!! navigation -->
     <nav>
-      <ul id="nav_ul">
-        <div class="položky center">
-          <a href="../index.html" class="logo"
-            ><img
-              src="../resized_top_images/Logo.jpg"
-              alt="The logo of the robotics interest group"
-          /></a>
-
+      <div class="nav_resize" id="nav_ul">
+        <button class="menu_icon">
+          <img
+            src="../img/hamburger.png"
+            class="img_hamburger"
+            alt="favicon for hamburger icon"
+          />
+        </button>
+        <a href="../index.html" class="logo"
+          ><img
+            src="../resized_top_images/Logo.jpg"
+            alt="The logo of the robotics interest group"
+        /></a>
+        <ul class="hidden center">
           <li><a href="board.html" class="active">Tabule kroužku</a></li>
           <li><a href="competition.html">Ze závodů</a></li>
           <li><a href="robots.html">Naši roboti</a></li>
           <li><a href="../photo-gallery.html">Foto galerie (zpět)</a></li>
-          <!--!! DarkTheme buttons -->
+        </ul>
+
+        <!--!! DarkTheme buttons -->
+        <span>
           <button class="DarkTheme activated" id="sun">
             <img src="../img/darkTheme_sun.png" alt="Favicon for sun" />
           </button>
@@ -78,8 +87,8 @@
           <button class="DarkTheme" id="moon">
             <img src="../img/darkTheme_moon.png" alt="Favicon for moon" />
           </button>
-        </div>
-      </ul>
+        </span>
+      </div>
     </nav>
 
     <header>
