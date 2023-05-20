@@ -70,8 +70,10 @@
     <div class="background2"></div>
 
     <nav>
-      <div class="nav_resize" id="nav_ul">
-        <button class="menu_icon">
+      <div id="nav_ul" class="nav_resize">
+        <!--?? Nav menu hamburger-->
+
+        <button class="menu_icon" id="OnClick">
           <img
             src="img/hamburger.png"
             class="img_hamburger"
@@ -84,6 +86,7 @@
             src="resized_top_images/Logo.jpg"
             alt="The logo of the robotics interest group"
         /></a>
+
         <ul class="center hidden">
           <li><a href="index.html">Home</a></li>
           <li><a href="homework.html">Domácí úkoly</a></li>
@@ -92,18 +95,29 @@
           <li><a href="#">Včelí úly</a></li>
           <li><a href="results.html">Výsledky bodování</a></li>
         </ul>
-
         <!--!! DarkTheme buttons -->
         <span>
           <button class="DarkTheme activated" id="sun">
             <img src="img/darkTheme_sun.png" alt="Favicon for sun" />
           </button>
-
           <button class="DarkTheme" id="moon">
             <img src="img/darkTheme_moon.png" alt="Favicon for moon" />
           </button>
         </span>
       </div>
+      <span class="bg_responsive DarkThemeBg2" id="bg2">
+        <ul class="res_ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="homework.html">Domácí úkoly</a></li>
+          <li>
+            <a href="links.html">Odkazy <span class="res_active"><</span></a>
+          </li>
+          <li><a href="photo-gallery.html">Foto-Alba</a></li>
+          <li><a href="#">Včelí úly</a></li>
+          <li><a href="results.html">Výsledky bodování</a></li>
+          <li><p class="res_foot">Copyright © 2023 Roboru</p></li>
+        </ul>
+      </span>
     </nav>
 
     <header>
@@ -166,5 +180,6 @@
       </div>
     </footer>
     <script src="DarkMode.js"></script>
+    <script src="Menu.js"></script>
   </body>
 </html>
