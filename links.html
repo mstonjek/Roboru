@@ -70,20 +70,31 @@
     <div class="background2"></div>
 
     <nav>
-      <ul id="nav_ul">
-        <div class="položky center">
-          <a href="index.html" class="logo"
-            ><img
-              src="resized_top_images/Logo.jpg"
-              alt="The logo of the robotics interest group"
-          /></a>
+      <div class="nav_resize" id="nav_ul">
+        <button class="menu_icon">
+          <img
+            src="img/hamburger.png"
+            class="img_hamburger"
+            alt="favicon for hamburger icon"
+          />
+        </button>
+
+        <a href="index.html" class="logo"
+          ><img
+            src="resized_top_images/Logo.jpg"
+            alt="The logo of the robotics interest group"
+        /></a>
+        <ul class="center hidden">
           <li><a href="index.html">Home</a></li>
           <li><a href="homework.html">Domácí úkoly</a></li>
           <li><a href="links.html" class="active">Odkazy</a></li>
           <li><a href="photo-gallery.html">Foto-Alba</a></li>
           <li><a href="#">Včelí úly</a></li>
           <li><a href="results.html">Výsledky bodování</a></li>
-           <!--!! DarkTheme buttons -->
+        </ul>
+
+        <!--!! DarkTheme buttons -->
+        <span>
           <button class="DarkTheme activated" id="sun">
             <img src="img/darkTheme_sun.png" alt="Favicon for sun" />
           </button>
@@ -91,8 +102,8 @@
           <button class="DarkTheme" id="moon">
             <img src="img/darkTheme_moon.png" alt="Favicon for moon" />
           </button>
-        </div>
-      </ul>
+        </span>
+      </div>
     </nav>
 
     <header>
