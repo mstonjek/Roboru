@@ -244,7 +244,7 @@ nav div ul li a:hover {
 /*!! Responsive bg */
 .bg_responsive {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 2.95rem;
   height: 14rem;
   width: 100%;
