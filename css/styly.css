@@ -187,6 +187,7 @@ nav div ul li a:hover {
 /*!! Result img section*/
 .ResultImg {
   margin-bottom: 15rem;
+  margin-top: 2.5rem;
 }
 /*!! links div space*/
 .links_div {
@@ -246,7 +247,7 @@ nav div ul li a:hover {
   display: none;
   position: fixed;
   top: 2.95rem;
-  height: 14rem;
+  height: 15rem;
   width: 100%;
   background-color: var(--basic-color);
 }
@@ -277,7 +278,7 @@ nav div ul li a:hover {
   color: var(--light-color);
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
-  margin-top: 1rem;
+  margin-top: 1.25rem !important;
   text-align: center;
 }
 
