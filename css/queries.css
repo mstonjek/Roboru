@@ -9,6 +9,13 @@
     font-size: 1.25rem !important;
     margin-top: 0;
   }
+  .btn2 {
+    font-size: 1.25rem !important;
+    margin-top: 2rem;
+  }
+  .btn2:first-child {
+    margin-top: 0;
+  }
   .p_hm {
     margin-bottom: 10rem !important;
   }
@@ -44,6 +51,10 @@
   }
   .btn1 {
     font-size: 1.5rem !important;
+  }
+  .btn2 {
+    font-size: 1.5rem !important;
+    margin-top: 1.25rem;
   }
   h2 {
     font-size: 2rem !important;
@@ -117,6 +128,12 @@
     display: block;
   }
   .footer {
+    display: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .NonePhotoG {
     display: none !important;
   }
 }

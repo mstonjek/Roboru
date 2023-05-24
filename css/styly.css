@@ -145,12 +145,6 @@ nav div ul li a:hover {
 .btn1:nth-child(2) {
   margin-left: 6rem;
 }
-
-/*!! Button for Photo gallery page*/
-#btn2 {
-  margin-left: 6rem;
-}
-
 /*! not bold strong tag !*/
 .not_bold {
   font-weight: 500;
@@ -285,4 +279,18 @@ nav div ul li a:hover {
 .res_active {
   font-weight: 900;
   color: var(--danger-color);
+}
+.FlexPhoto {
+  display: flex;
+  justify-content: center;
+}
+.btn2{
+  font-size: 1.75rem;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 2rem;
+  color: var(--light-color);
+  height: 2rem !important;
+  text-align: center;
+  display: block;
+  text-decoration: none !important;
 }
