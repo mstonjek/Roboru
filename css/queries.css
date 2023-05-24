@@ -82,6 +82,16 @@
     display: none;
   }
 }
+@media (max-width: 830px) {
+  .MarkedText {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 601px) {
+  .MarkedText {
+    font-size: 0.85rem;
+  }
+}
 /*! Navigation hamburger menu by 827px*/
 @media (max-width: 827px) {
   .hidden {
@@ -91,8 +101,8 @@
     display: block;
   }
   .show {
-  display: block;
-}
+    display: block;
+  }
   .footer {
     display: none !important;
   }
