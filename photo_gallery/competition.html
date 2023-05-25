@@ -57,37 +57,52 @@
 
     <!--!! navigation -->
     <nav>
-      <div class="nav_resize" id="nav_ul">
-         <button class="menu_icon">
+      <div id="nav_ul" class="nav_resize">
+        <!--?? Nav menu hamburger-->
+
+        <button class="menu_icon" id="OnClick">
           <img
             src="../img/hamburger.png"
             class="img_hamburger"
             alt="favicon for hamburger icon"
           />
         </button>
+
         <a href="../index.html" class="logo"
           ><img
             src="../resized_top_images/Logo.jpg"
             alt="The logo of the robotics interest group"
         /></a>
+
         <ul class="hidden center">
           <li><a href="board.html">Tabule kroužku</a></li>
           <li><a href="competition.html" class="active">Ze závodů</a></li>
           <li><a href="robots.html">Naši roboti</a></li>
           <li><a href="../photo-gallery.html">Foto galerie (zpět)</a></li>
         </ul>
-
         <!--!! DarkTheme buttons -->
         <span>
           <button class="DarkTheme activated" id="sun">
             <img src="../img/darkTheme_sun.png" alt="Favicon for sun" />
           </button>
-
           <button class="DarkTheme" id="moon">
             <img src="../img/darkTheme_moon.png" alt="Favicon for moon" />
           </button>
         </span>
       </div>
+      <span class="bg_responsive DarkThemeBg2 bg_responsive_photo" id="bg2">
+        <ul class="res_ul">
+          <li><a href="board.html">Tabule kroužku</a></li>
+          <li>
+            <a href="competition.html"
+              >Ze závodů <span class="res_active"><</span></a
+            >
+          </li>
+          <li><a href="robots.html">Naši roboti</a></li>
+          <li><a href="../photo-gallery.html">Foto galerie (zpět)</a></li>
+          <li><p class="res_foot photo_foot">Copyright © 2023 Roboru</p></li>
+        </ul>
+      </span>
     </nav>
 
     <header>
@@ -141,5 +156,6 @@
       </div>
     </footer>
     <script src="../DarkMode.js"></script>
+    <script src="../Menu.js"></script>
   </body>
 </html>

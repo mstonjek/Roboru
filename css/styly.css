@@ -294,3 +294,11 @@ nav div ul li a:hover {
   display: block;
   text-decoration: none !important;
 }
+
+.photo_foot {
+  margin-top: 1.75rem !important;
+}
+
+.bg_responsive_photo {
+  height: 12rem !important;
+}
