@@ -137,6 +137,29 @@
     display: none !important;
   }
 }
+/*for phones bellow 334px*/
+@media (max-width: 334px) {
+
+  h2{
+    font-size: 1.3rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* already added in basic.css
 h1 {
