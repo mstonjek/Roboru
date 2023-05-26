@@ -47,7 +47,7 @@ background-position:center;
   background-position: center center;
 }
 .bg5 {
-  background-image: url(../resized_top_images/Backgrounds/fotka1.jpg);
+  background-image: url(../resized_top_images/Backgrounds/Respons.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -152,13 +152,13 @@ nav div ul li a:hover {
 .MainTitle {
   color: var(--light-color);
   z-index: 2;
-  margin-top: 7rem;
+  margin-top: 5rem;
   height: 5rem !important;
 }
 .btn1 {
   font-size: 1.75rem;
   font-family: "Work Sans", sans-serif;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   color: var(--light-color);
   height: 2rem !important;
   text-align: center;
@@ -325,4 +325,8 @@ nav div ul li a:hover {
 
 .bg_responsive_photo {
   height: 12rem !important;
+}
+
+.TitleDark {
+  color: var(--primary-color) !important;
 }
