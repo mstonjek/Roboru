@@ -29,13 +29,13 @@ background-size:contain;
 background-position:center;
 }
 .bg2 {
-  background-image: url(../resized_top_images/Backgrounds/fotka1.jpg);
+  background-image: url(../resized_top_images/Backgrounds/Respons.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .bg3 {
-  background-image: url(../resized_top_images/Backgrounds/fotka2.jpg);
+  background-image: url(../resized_top_images/Backgrounds/fotka1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -47,7 +47,7 @@ background-position:center;
   background-position: center center;
 }
 .bg5 {
-  background-image: url(../resized_top_images/Backgrounds/fotka4.jpg);
+  background-image: url(../resized_top_images/Backgrounds/respons2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -65,7 +65,7 @@ background-position:center;
   background-position: center center;
 }
 .bg8 {
-  background-image: url(../resized_top_images/Backgrounds/fotka6.jpg);
+  background-image: url(../resized_top_images/Backgrounds/fotka2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
