@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const Footer = document.querySelector("#footer_js");
   const Navigation = document.querySelector("#nav_ul");
   const Background2 = document.querySelector("#bg2");
+  const GalleryBg = document.querySelector("#GalleryBg");
 
   function enableDarkMode() {
     document.body.classList.add("DarkThemeForBody");
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Sun.classList.remove("activated");
     Moon.classList.add("activated");
     Background2.classList.add("DarkThemeBg2");
+    GalleryBg.classList.add("DarkBgGallery");
 
     // ! Zde je uložena preference režimu
     localStorage.setItem("darkMode", "enabled");
@@ -24,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Sun.classList.add("activated");
     Moon.classList.remove("activated");
     Background2.classList.remove("DarkThemeBg2");
+    GalleryBg.classList.remove("DarkBgGallery");
 
     //! Zde je úložiště darkModu
     localStorage.setItem("darkMode", "disabled");
