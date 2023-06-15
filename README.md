@@ -1,4 +1,0 @@
-# Roboru
-## Adding:
-+ Responzivita
-
