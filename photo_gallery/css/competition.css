@@ -8,14 +8,11 @@
 
 .photo-container {
   position: relative;
-  width: 50%;
-  height: 65%;
-  max-height: fit-content;
-  max-width: fit-content;
 }
 
 .photo {
-  width: 100%;
+  max-width: 96%;
+  height: auto;
   margin-left: 10px;
   border-radius: 5%;
 }
@@ -23,15 +20,15 @@
 .photo-number {
   position: absolute;
   top: 10px;
-  right: 30px;
+  right: 50px;
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--light-color);
-  text-shadow: 2px 2px var(--dark-color);
-  background-color: var(--dark-color);
+  text-shadow: 2px 2px var(--black-color);
+  background-color: var(--black-color);
   padding: 10px;
   border-radius: 25%;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .prev-btn,
@@ -42,7 +39,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: var(--light-color);
-  background-color: var(--dark-color);
+  background-color: var(--black-color);
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -60,7 +57,7 @@
 }
 
 .next-btn {
-  right: -10px;
+  right: 23px;
 }
 
 .gallery {
