@@ -22,6 +22,6 @@
 .DarkThemeBg2 {
   background-color: var(--basic-dark-color) !important;
 }
-.DarkBgGallery {
+.DarkThemePhotos{
   background-color: var(--dark-color) !important;
 }

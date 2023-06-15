@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const Footer = document.querySelector("#footer_js");
   const Navigation = document.querySelector("#nav_ul");
   const Background2 = document.querySelector("#bg2");
+  const Photos = document.querySelector("#Photos");
 
 
   function enableDarkMode() {
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Sun.classList.remove("activated");
     Moon.classList.add("activated");
     Background2.classList.add("DarkThemeBg2");
+    Photos.classList.add("DarkThemePhotos");
    
 
     // ! Zde je uložena preference režimu
@@ -26,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Sun.classList.add("activated");
     Moon.classList.remove("activated");
     Background2.classList.remove("DarkThemeBg2");
+    Photos.classList.remove("DarkThemePhotos");
    
 
     //! Zde je úložiště darkModu
